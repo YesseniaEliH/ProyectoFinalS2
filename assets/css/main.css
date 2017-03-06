@@ -44,3 +44,7 @@ body{
 .show {
   display:block;
 }
+
+.oculto{
+  display : none;
+}

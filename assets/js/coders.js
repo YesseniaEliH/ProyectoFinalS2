@@ -10,7 +10,7 @@ var datos = [ { nombre : "Meche", apellido : "Zubieta", promocion : "1ra Promoci
 function imprimirDatos(){
   var m = document.getElementById("mostrar");
     datos.forEach(function(elemento){
-      m.innerHTML += "<section style='background-color: #DABF13; margin:15px; padding:30px; width: 180px; float:left;border: 1px solid black'> " +
+      m.innerHTML += "<section style='background-color: #F5C021; margin:15px; padding:30px; width: 180px; float:left;border: 1px solid black'> " +
                                 "Nombre: " + elemento.nombre+ "<br/>"+
                                 "Apellido: " + elemento.apellido+ "<br/>" +
                                 "Promoción: " +  elemento.promocion+ "<br/>" +
